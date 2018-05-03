@@ -1,0 +1,222 @@
+[app/ui]
+version = 7.0.3
+modtime = 1525219374.772924000
+
+[app/launcher]
+version = 7.0.3
+modtime = 1525219374.775382000
+
+[eventtypes/hunting_windows_process_new]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525300898.573284000
+
+[tags/eventtype%3Dhunting_windows_process_new]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525300898.624869000
+
+[eventtypes/hunting_windows_account_login]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525127327.639769000
+
+[tags/eventtype%3Dhunting_windows_account_login]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525127327.648975000
+
+[eventtypes/hunting_windows_share_access]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525300918.725147000
+
+[tags/eventtype%3Dhunting_windows_share_access]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525300918.772282000
+
+[eventtypes/hunting_windows_network_connection]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525300890.856051000
+
+[tags/eventtype%3Dhunting_windows_network_connection]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525300890.901416000
+
+[eventtypes/hunting_windows_service_creation]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219093.238453000
+
+[tags/eventtype%3Dhunting_windows_service_creation]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219093.247995000
+
+[eventtypes/windows_hunting_new_regkey]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219099.986552000
+
+[tags/eventtype%3Dwindows_hunting_new_regkey]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219099.999884000
+
+[savedsearches/T1117%20-%20Execution%2FDefense%20Evasion%20-%20Regsvr32]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525304174.878449000
+
+[savedsearches/T1170%20-%20Execution%2FDefense%20Evasion%20-%20mshts]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525304178.900793000
+
+[app/package/check_for_updates]
+version = 7.0.3
+modtime = 1525219374.776455000
+
+[savedsearches/Number%20of%20%22to%22%20messages]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.881915000
+
+[savedsearches/Message%20size%20by%20relay]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.883304000
+
+[savedsearches/Number%20of%20%22from%22%20messages]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.886680000
+
+[savedsearches/Histogram%20of%20delay%20in%20seconds]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.888124000
+
+[savedsearches/Mail%20delivery%20time]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.890215000
+
+[savedsearches/Number%20of%20reject%20events%20by%20relay]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.914607000
+
+[savedsearches/Top%20recipients%20-%20pie%20chart]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.969838000
+
+[savedsearches/Top%20recipients%20by%20mailer]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.980681000
+
+[savedsearches/Top%20recipients]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.985064000
+
+[savedsearches/Sendmail%20transactions]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219478.986192000
+
+[savedsearches/Top%20recipients%20by%20mailer%20-%20area%20chart]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219479.042474000
+
+[props/XmlWinEventLog%3ASecurity/FIELDALIAS-SubjectUserName%20-UserName]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219848.382305000
+
+[tags/eventtype%3Dhunting_share_access]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219857.180990000
+
+[tags/eventtype%3Dwindows_account_login]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525219866.730062000
+
+[eventtypes/hunting_windows_new_regkey]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525220354.158054000
+
+[tags/eventtype%3Dhunting_windows_new_regkey]
+access = read : [ * ], write : [ power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525220354.168188000
+
+[savedsearches/T1064%20-%20Execution%2FDefense%20Evasion%20-%20Office%20spawning%20scritp]
+owner = admin
+version = 7.0.3
+modtime = 1525304074.013086000
+
+[savedsearches/T1191%20-%20Execution%2FDefense%20Evasion%20-%20cmstp]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 7.0.3
+modtime = 1525304183.828938000
